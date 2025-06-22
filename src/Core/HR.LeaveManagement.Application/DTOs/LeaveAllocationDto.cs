@@ -1,7 +1,7 @@
 
 namespace HR.LeaveManagement.Application.DTOs;
 
-public class LeaveApplicationDto : BaseDto
+public class LeaveAllocationDto : BaseDto
 {
     public int NumberOfDays { get; set; }
     public int LeaveTypeId { get; set; }
