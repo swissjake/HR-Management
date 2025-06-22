@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A2E79786-CAED-4DBD-9663-ECC3CF35B59F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C2D1C2E5-9A18-431F-B736-CE0E0EA69AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "src\Core\HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{EC2B2F1A-A653-4835-A324-A6524CA435F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "src\Core\HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{16C0E320-98B7-4914-8B33-69BF19EACF31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC2B2F1A-A653-4835-A324-A6524CA435F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2B2F1A-A653-4835-A324-A6524CA435F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2B2F1A-A653-4835-A324-A6524CA435F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2B2F1A-A653-4835-A324-A6524CA435F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C0E320-98B7-4914-8B33-69BF19EACF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C0E320-98B7-4914-8B33-69BF19EACF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C0E320-98B7-4914-8B33-69BF19EACF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C0E320-98B7-4914-8B33-69BF19EACF31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2D1C2E5-9A18-431F-B736-CE0E0EA69AC5} = {A2E79786-CAED-4DBD-9663-ECC3CF35B59F}
+		{EC2B2F1A-A653-4835-A324-A6524CA435F0} = {C2D1C2E5-9A18-431F-B736-CE0E0EA69AC5}
+		{16C0E320-98B7-4914-8B33-69BF19EACF31} = {C2D1C2E5-9A18-431F-B736-CE0E0EA69AC5}
+	EndGlobalSection
+EndGlobal
